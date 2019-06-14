@@ -1,0 +1,53 @@
+{% extends "main.html" %}
+
+{% block contenido %}
+
+
+{% if actor != None %}
+<h1 align="center">Películas en las que sale {{ actor }}</h1>
+{% endif %}
+{% if genero != None %}
+<h1 align="center">Películas de género {{ genero }}</h1>
+{% endif %}
+
+<table class="table table-striped">
+  <thead>
+    <tr class="bg-info">
+      <th scope="col">Nombre de la película</th>
+      <th scope="col">Año</th>
+      <th scope="col">Director</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for p in pelis %}
+      <tr id = "{{p.id}}">
+        <td><a href="/pelis/infopeli/{{p.id}}"> {{ p.title }}</a> </td>
+        <td> {{ p.year }} </td>
+        <td> {{ p.director }} </td>
+        <td>
+          <button class="button button2" onclick="location.href = '/pelis/edicionpeli/{{p.id}}'"> Editar </button>
+          <button class="button button1" onclick="borra('{{p.id}}');"> Borrar </button>
+        </td>
+      </tr>
+
+    {% endfor %}
+  </tbody>
+</table>
+
+<script>
+function borra(id) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var element = document.getElementById(id);
+      element.parentNode.removeChild(element);
+    }
+  };
+  xhttp.open("GET", "/pelis/borrapeli/"+id, true);
+  xhttp.send();
+}
+</script>
+
+{% endblock %}

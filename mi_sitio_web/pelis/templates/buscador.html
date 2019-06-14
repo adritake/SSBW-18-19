@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+
+{% block contenido %}
+
+<h1> Buscar por actor </h1>
+
+
+<form action="/pelis/mostrarpelis">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Nombre del actor/actriz</label>
+    <input type="text" class="form-control" name = "actor" id="formGroupExampleInput" placeholder="p.e: Will Smith...">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+<hr>
+
+<h1> Buscar por género </h1>
+
+<form action="/pelis/mostrarpelis">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Género</label>
+    <input type="text" class="form-control" name = "genero" id="formGroupExampleInput" placeholder="p.e: Western...">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+
+{% endblock %}

@@ -1,0 +1,1226 @@
+Using default tag: latest
+latest: Pulling from library/mongo
+34667c7e4631: Pulling fs layer
+d18d76a881a4: Pulling fs layer
+119c7358fbfc: Pulling fs layer
+2aaf13f3eff0: Pulling fs layer
+f7833eaffdda: Pulling fs layer
+8287cb5b9daf: Pulling fs layer
+ea00040a145a: Pulling fs layer
+eeb70119a2ba: Pulling fs layer
+066b6bd644f8: Pulling fs layer
+39286f4b500d: Pulling fs layer
+70003b385eb7: Pulling fs layer
+4695c82abc39: Pulling fs layer
+4371b5ab4de7: Pulling fs layer
+066b6bd644f8: Waiting
+2aaf13f3eff0: Waiting
+39286f4b500d: Waiting
+f7833eaffdda: Waiting
+70003b385eb7: Waiting
+8287cb5b9daf: Waiting
+4695c82abc39: Waiting
+ea00040a145a: Waiting
+eeb70119a2ba: Waiting
+4371b5ab4de7: Waiting
+d18d76a881a4: Verifying Checksum
+d18d76a881a4: Download complete
+119c7358fbfc: Verifying Checksum
+119c7358fbfc: Download complete
+2aaf13f3eff0: Verifying Checksum
+2aaf13f3eff0: Download complete
+f7833eaffdda: Download complete
+ea00040a145a: Verifying Checksum
+ea00040a145a: Download complete
+eeb70119a2ba: Verifying Checksum
+eeb70119a2ba: Download complete
+34667c7e4631: Verifying Checksum
+34667c7e4631: Download complete
+066b6bd644f8: Verifying Checksum
+066b6bd644f8: Download complete
+39286f4b500d: Verifying Checksum
+39286f4b500d: Download complete
+34667c7e4631: Pull complete
+d18d76a881a4: Pull complete
+4695c82abc39: Verifying Checksum
+4695c82abc39: Download complete
+119c7358fbfc: Pull complete
+2aaf13f3eff0: Pull complete
+4371b5ab4de7: Verifying Checksum
+4371b5ab4de7: Download complete
+f7833eaffdda: Pull complete
+8287cb5b9daf: Verifying Checksum
+8287cb5b9daf: Download complete
+8287cb5b9daf: Pull complete
+ea00040a145a: Pull complete
+eeb70119a2ba: Pull complete
+066b6bd644f8: Pull complete
+39286f4b500d: Pull complete
+70003b385eb7: Verifying Checksum
+70003b385eb7: Download complete
+70003b385eb7: Pull complete
+4695c82abc39: Pull complete
+4371b5ab4de7: Pull complete
+Digest: sha256:c4fe6705e1dffb91d3fdb4f2c00f58a5ce9b82dd010bce33e250d320518047b5
+Status: Downloaded newer image for mongo:latest
+4.0: Pulling from library/mongo
+latest: Pulling from library/mongo-express
+Attaching to mi_sitio_web_mongo_1, mi_sitio_web_mongo-express_1, mi_sitio_web_web_1
+[36mmongo_1          |[0m 2019-03-12T15:24:09.402+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[33mmongo-express_1  |[0m Waiting for mongo:27017...
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[33mmongo-express_1  |[0m Welcome to mongo-express
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[33mmongo-express_1  |[0m ------------------------
+[33mmongo-express_1  |[0m 
+[33mmongo-express_1  |[0m 
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[33mmongo-express_1  |[0m Mongo Express server listening at http://0.0.0.0:8081
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[33mmongo-express_1  |[0m [31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[36mmongo_1          |[0m 2019-03-12T15:24:11.392+0000 I STORAGE  [initandlisten] WiredTiger message [1552404251:392097][1:0x7fccd685da40], txn-recover: Set global recovery timestamp: 0
+[33mmongo-express_1  |[0m [31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[36mmongo_1          |[0m 2019-03-12T15:24:11.885+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[33mmongo-express_1  |[0m Database connected
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] 
+[33mmongo-express_1  |[0m Admin Database connected
+[36mmongo_1          |[0m 2019-03-12T15:24:12.663+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: b5529eeb-d8ee-4933-83ae-df440629696e
+[36mmongo_1          |[0m 2019-03-12T15:24:13.161+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+[36mmongo_1          |[0m 2019-03-12T15:24:13.164+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: dbedbf7b-0845-4fde-81df-3b7cfa534f3c
+[36mmongo_1          |[0m 2019-03-12T15:24:13.714+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:24:13.715+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[36mmongo_1          |[0m 2019-03-12T15:24:13.715+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: 9b3ad1a4-b7c6-4eb5-94d4-81fd2c9a6999
+[36mmongo_1          |[0m 2019-03-12T15:24:14.124+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+[36mmongo_1          |[0m 2019-03-12T15:24:14.124+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+[36mmongo_1          |[0m 2019-03-12T15:24:14.125+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+[36mmongo_1          |[0m 2019-03-12T15:24:14.125+0000 I COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:114 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 409ms
+[36mmongo_1          |[0m 2019-03-12T15:24:14.506+0000 I NETWORK  [listener] connection accepted from 172.21.0.3:55576 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:24:14.506+0000 I NETWORK  [conn1] end connection 172.21.0.3:55576 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:24:14.997+0000 I NETWORK  [listener] connection accepted from 172.21.0.3:55578 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:24:15.017+0000 I NETWORK  [conn2] received client metadata from 172.21.0.3:55578 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[36mmongo_1          |[0m 2019-03-12T15:24:15.028+0000 I NETWORK  [listener] connection accepted from 172.21.0.3:55580 #3 (2 connections now open)
+[32mweb_1            |[0m Performing system checks...
+[32mweb_1            |[0m 
+[32mweb_1            |[0m System check identified no issues (0 silenced).
+[32mweb_1            |[0m March 12, 2019 - 15:24:20
+[32mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[32mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[32mweb_1            |[0m Quit the server with CONTROL-C.
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to mi_sitio_web_mongo_1, mi_sitio_web_web_1, mi_sitio_web_mongo-express_1
+[36mmongo_1          |[0m 2019-03-12T15:26:22.841+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[32mmongo-express_1  |[0m Waiting for mongo:27017...
+[33mweb_1            |[0m March 12, 2019 - 15:26:25
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[36mmongo_1          |[0m 2019-03-12T15:26:23.982+0000 I STORAGE  [initandlisten] WiredTiger message [1552404383:982302][1:0x7fd441ee2a40], txn-recover: Main recovery loop: starting at 1/20736 to 2/256
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[36mmongo_1          |[0m 2019-03-12T15:26:23.982+0000 I STORAGE  [initandlisten] WiredTiger message [1552404383:982621][1:0x7fd441ee2a40], txn-recover: Recovering log 1 through 2
+[36mmongo_1          |[0m 2019-03-12T15:26:24.108+0000 I STORAGE  [initandlisten] WiredTiger message [1552404384:108568][1:0x7fd441ee2a40], txn-recover: Recovering log 2 through 2
+[36mmongo_1          |[0m 2019-03-12T15:26:24.158+0000 I STORAGE  [initandlisten] WiredTiger message [1552404384:158133][1:0x7fd441ee2a40], txn-recover: Set global recovery timestamp: 0
+[36mmongo_1          |[0m 2019-03-12T15:26:24.584+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:26:24.755+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:26:24.756+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[36mmongo_1          |[0m 2019-03-12T15:26:25.014+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[36mmongo_1          |[0m 2019-03-12T15:26:26.039+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49142 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:26.039+0000 I NETWORK  [conn1] end connection 172.21.0.4:49142 (0 connections now open)
+[32mmongo-express_1  |[0m Welcome to mongo-express
+[32mmongo-express_1  |[0m ------------------------
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m Mongo Express server listening at http://0.0.0.0:8081
+[32mmongo-express_1  |[0m [31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[32mmongo-express_1  |[0m [31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[36mmongo_1          |[0m 2019-03-12T15:26:26.518+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49144 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:26.538+0000 I NETWORK  [conn2] received client metadata from 172.21.0.4:49144 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[32mmongo-express_1  |[0m Database connected
+[32mmongo-express_1  |[0m Admin Database connected
+[36mmongo_1          |[0m 2019-03-12T15:26:26.550+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49146 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:32:18.357+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49172 #4 (3 connections now open)
+[32mmongo-express_1  |[0m [0mGET / [32m200 [0m45.867 ms - 8953[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [32m200 [0m6.496 ms - 121200[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [32m200 [0m3.661 ms - 23409[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [32m200 [0m0.515 ms - 1883[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [32m200 [0m0.537 ms - 126314[0m
+[32mmongo-express_1  |[0m [0mGET /public/index-512f467a07c538127931.min.js [32m200 [0m0.510 ms - 1042[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [32m200 [0m0.513 ms - 17847[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [32m200 [0m0.547 ms - 50281[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [32m200 [0m0.785 ms - 18028[0m
+[36mmongo_1          |[0m 2019-03-12T15:32:25.178+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49184 #5 (4 connections now open)
+[32mmongo-express_1  |[0m [0mGET /db/admin/ [32m200 [0m19.237 ms - 8621[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m1.168 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m0.404 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.321 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m0.963 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.322 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/database-d63e752d3031610834d2.min.js [32m200 [0m1.066 ms - 1632[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.822 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.302 ms - -[0m
+[32mmongo-express_1  |[0m [0mPOST /db/admin/import/system.version [32m200 [0m201.305 ms - 25[0m
+[32mmongo-express_1  |[0m [0mGET /db/admin [32m200 [0m212.443 ms - 8620[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m1.614 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m1.297 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.068 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.249 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m1.341 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/database-d63e752d3031610834d2.min.js [36m304 [0m0.542 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.555 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.388 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/admin/system.version [32m200 [0m62.827 ms - 56547[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/codemirror.css [32m200 [0m1.114 ms - 8542[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m1.220 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m1.152 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.235 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.332 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/theme/rubyblue.css [32m200 [0m3.890 ms - 1801[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.845 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.502 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/collection-de5030f1c86993d175a9.min.js [32m200 [0m1.469 ms - 9946[0m
+[32mmongo-express_1  |[0m [0mGET /public/codemirror-298693927a3d2ff0c905.min.js [32m200 [0m1.487 ms - 184058[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.351 ms - -[0m
+[36mmongo_1          |[0m 2019-03-12T15:34:03.679+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:45966 #6 (5 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:34:03.722+0000 I STORAGE  [conn6] createCollection: movies.pelis with generated UUID: 7e43247a-8ff9-4bde-af4d-4b3ca8094b09
+[36mmongo_1          |[0m 2019-03-12T15:34:03.956+0000 I COMMAND  [conn6] command movies.pelis command: insert { insert: "pelis", writeConcern: { getLastError: 1, w: 1 }, ordered: false, $db: "movies" } ninserted:1000 keysInserted:1000 numYields:0 reslen:60 locks:{ Global: { acquireCount: { r: 18, w: 18 } }, Database: { acquireCount: { w: 17, W: 1 } }, Collection: { acquireCount: { w: 17 } } } protocol:op_query 234ms
+[36mmongo_1          |[0m 2019-03-12T15:34:03.992+0000 I NETWORK  [conn6] end connection 127.0.0.1:45966 (4 connections now open)
+[32mmongo-express_1  |[0m [0mGET / [32m200 [0m18.909 ms - 9700[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m0.755 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m1.281 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.243 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.146 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.365 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/index-512f467a07c538127931.min.js [36m304 [0m0.720 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.656 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.322 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/ [32m200 [0m16.805 ms - 8598[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m0.341 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m0.380 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m0.352 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m0.366 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.373 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/database-d63e752d3031610834d2.min.js [36m304 [0m0.305 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.372 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.270 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/pelis [32m200 [0m57.063 ms - 55841[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m0.404 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m0.724 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m0.700 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/codemirror.css [36m304 [0m0.633 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/theme/rubyblue.css [36m304 [0m2.206 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m2.157 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m2.091 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/codemirror-298693927a3d2ff0c905.min.js [36m304 [0m1.037 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/collection-de5030f1c86993d175a9.min.js [36m304 [0m1.011 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.966 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.493 ms - -[0m
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to mi_sitio_web_mongo_1, mi_sitio_web_web_1, mi_sitio_web_mongo-express_1
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[36mmongo_1          |[0m 2019-03-12T15:35:17.102+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[33mweb_1            |[0m March 12, 2019 - 15:35:19
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[32mmongo-express_1  |[0m Waiting for mongo:27017...
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[36mmongo_1          |[0m 2019-03-12T15:35:18.156+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:156845][1:0x7f354d079a40], txn-recover: Main recovery loop: starting at 2/1557248 to 3/256
+[36mmongo_1          |[0m 2019-03-12T15:35:18.157+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:157209][1:0x7f354d079a40], txn-recover: Recovering log 2 through 3
+[36mmongo_1          |[0m 2019-03-12T15:35:18.290+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:290902][1:0x7f354d079a40], file:sizeStorer.wt, txn-recover: Recovering log 3 through 3
+[36mmongo_1          |[0m 2019-03-12T15:35:18.343+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:343645][1:0x7f354d079a40], file:sizeStorer.wt, txn-recover: Set global recovery timestamp: 0
+[36mmongo_1          |[0m 2019-03-12T15:35:18.724+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:35:18.830+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:35:18.831+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[36mmongo_1          |[0m 2019-03-12T15:35:19.020+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[36mmongo_1          |[0m 2019-03-12T15:35:20.498+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49366 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:20.498+0000 I NETWORK  [conn1] end connection 172.21.0.4:49366 (0 connections now open)
+[32mmongo-express_1  |[0m Welcome to mongo-express
+[32mmongo-express_1  |[0m ------------------------
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m Mongo Express server listening at http://0.0.0.0:8081
+[32mmongo-express_1  |[0m [31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[32mmongo-express_1  |[0m [31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[36mmongo_1          |[0m 2019-03-12T15:35:21.031+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49368 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:21.051+0000 I NETWORK  [conn2] received client metadata from 172.21.0.4:49368 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[32mmongo-express_1  |[0m Database connected
+[32mmongo-express_1  |[0m Admin Database connected
+[36mmongo_1          |[0m 2019-03-12T15:35:21.065+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49370 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:21.067+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49372 #4 (3 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:22.845+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49378 #5 (4 connections now open)
+[32mmongo-express_1  |[0m [0mGET / [32m200 [0m36.466 ms - 9695[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m2.478 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m1.819 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.692 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m1.616 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.540 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/index-512f467a07c538127931.min.js [36m304 [0m0.640 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.607 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.400 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/ [36m304 [0m31.303 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m0.422 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m0.453 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.201 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.143 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m1.062 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/database-d63e752d3031610834d2.min.js [36m304 [0m0.696 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.663 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.310 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/pelis [36m304 [0m68.530 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m2.930 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m2.923 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/codemirror.css [36m304 [0m2.888 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m2.862 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m2.818 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/theme/rubyblue.css [36m304 [0m2.770 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.343 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/codemirror-298693927a3d2ff0c905.min.js [36m304 [0m1.178 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/collection-de5030f1c86993d175a9.min.js [36m304 [0m1.432 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m1.388 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.473 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/pelis/%25225b107bec1d2952d0da9046e0%2522 [32m200 [0m16.320 ms - 8076[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m0.379 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m0.389 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/codemirror.css [36m304 [0m0.767 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m0.863 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/theme/rubyblue.css [36m304 [0m0.338 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m0.338 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.360 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/codemirror-298693927a3d2ff0c905.min.js [36m304 [0m1.122 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m2.576 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/document-14c5429f8bb0330baeef.min.js [32m200 [0m4.551 ms - 1607[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.378 ms - -[0m
+[33mweb_1            |[0m Not Found: /
+[33mweb_1            |[0m [12/Mar/2019 15:41:19] "HEAD / HTTP/1.1" 404 2040
+[33mweb_1            |[0m Not Found: /
+[33mweb_1            |[0m [12/Mar/2019 15:41:26] "GET / HTTP/1.1" 404 2039
+[33mweb_1            |[0m Not Found: /favicon.ico
+[33mweb_1            |[0m [12/Mar/2019 15:41:26] "GET /favicon.ico HTTP/1.1" 404 2090
+[33mweb_1            |[0m Not Found: /ejercicios
+[33mweb_1            |[0m [12/Mar/2019 15:41:39] "GET /ejercicios HTTP/1.1" 404 2087
+[33mweb_1            |[0m Not Found: /ejercicios/
+[33mweb_1            |[0m [12/Mar/2019 15:41:45] "GET /ejercicios/ HTTP/1.1" 404 2163
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (13) [1552405338:961436][1:0x7f3544ff5700], log-server: __directory_list_worker, 48: /data/db/journal: directory-list: opendir: Permission denied Raw: [1552405338:961436][1:0x7f3544ff5700], log-server: __directory_list_worker, 48: /data/db/journal: directory-list: opendir: Permission denied
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (13) [1552405338:961605][1:0x7f3544ff5700], log-server: __log_prealloc_once, 484: log pre-alloc server error: Permission denied Raw: [1552405338:961605][1:0x7f3544ff5700], log-server: __log_prealloc_once, 484: log pre-alloc server error: Permission denied
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (13) [1552405338:961689][1:0x7f3544ff5700], log-server: __log_server, 1031: log server error: Permission denied Raw: [1552405338:961689][1:0x7f3544ff5700], log-server: __log_server, 1031: log server error: Permission denied
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (-31804) [1552405338:961734][1:0x7f3544ff5700], log-server: __wt_panic, 523: the process must exit and restart: WT_PANIC: WiredTiger library panic Raw: [1552405338:961734][1:0x7f3544ff5700], log-server: __wt_panic, 523: the process must exit and restart: WT_PANIC: WiredTiger library panic
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 F -        [thread6] Fatal Assertion 50853 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 409
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 F -        [thread6] 
+[36mmongo_1          |[0m 
+[36mmongo_1          |[0m ***aborting after fassert() failure
+[36mmongo_1          |[0m 
+[36mmongo_1          |[0m 
+[36mmongo_1          |[0m 2019-03-12T15:42:18.977+0000 F -        [thread6] Got signal: 6 (Aborted).
+[36mmongo_1          |[0m  0x557fa5fa8b61 0x557fa5fa7d79 0x557fa5fa825d 0x7f354b7fd390 0x7f354b457428 0x7f354b45902a 0x557fa45c313f 0x557fa46bafa6 0x557fa472cf99 0x557fa454d343 0x557fa454d763 0x557fa4797282 0x7f354b7f36ba 0x7f354b52941d
+[36mmongo_1          |[0m ----- BEGIN BACKTRACE -----
+[36mmongo_1          |[0m {"backtrace":[{"b":"557FA3BAC000","o":"23FCB61","s":"_ZN5mongo15printStackTraceERSo"},{"b":"557FA3BAC000","o":"23FBD79"},{"b":"557FA3BAC000","o":"23FC25D"},{"b":"7F354B7EC000","o":"11390"},{"b":"7F354B422000","o":"35428","s":"gsignal"},{"b":"7F354B422000","o":"3702A","s":"abort"},{"b":"557FA3BAC000","o":"A1713F","s":"_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj"},{"b":"557FA3BAC000","o":"B0EFA6"},{"b":"557FA3BAC000","o":"B80F99"},{"b":"557FA3BAC000","o":"9A1343","s":"__wt_err_func"},{"b":"557FA3BAC000","o":"9A1763","s":"__wt_panic"},{"b":"557FA3BAC000","o":"BEB282"},{"b":"7F354B7EC000","o":"76BA"},{"b":"7F354B422000","o":"10741D","s":"clone"}],"processInfo":{ "mongodbVersion" : "4.0.6", "gitVersion" : "caa42a1f75a56c7643d0b68d3880444375ec42e3", "compiledModules" : [], "uname" : { "sysname" : "Linux", "release" : "4.15.0-46-generic", "version" : "#49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019", "machine" : "x86_64" }, "somap" : [ { "b" : "557FA3BAC000", "elfType" : 3, "buildId" : "FAEABC5A7AEF9457109EED554DE5AD1A4812715B" }, { "b" : "7FFF69FE2000", "elfType" : 3, "buildId" : "E355748AFDEF074EA826B0AA2146077CB329F805" }, { "b" : "7F354CBFD000", "path" : "/usr/lib/x86_64-linux-gnu/libcurl.so.4", "elfType" : 3, "buildId" : "93EA3FEB7AC8F28D7F4F59F5B94226A20A6F9023" }, { "b" : "7F354C9E2000", "path" : "/lib/x86_64-linux-gnu/libresolv.so.2", "elfType" : 3, "buildId" : "50A923F8DAFECBCD969C8573116A38C18D0E24D5" }, { "b" : "7F354C59D000", "path" : "/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", "elfType" : 3, "buildId" : "15FFEB43278726B025F020862BF51302822A40EC" }, { "b" : "7F354C334000", "path" : "/lib/x86_64-linux-gnu/libssl.so.1.0.0", "elfType" : 3, "buildId" : "FF69EA60EBE05F2DD689D2B26FC85A73E5FBC3A0" }, { "b" : "7F354C130000", "path" : "/lib/x86_64-linux-gnu/libdl.so.2", "elfType" : 3, "buildId" : "37BFC3D8F7E3B022DAC7943B1A5FACD40CEBF0AD" }, { "b" : "7F354BF28000", "path" : "/lib/x86_64-linux-gnu/librt.so.1", "elfType" : 3, "buildId" : "69143E8B39040C964D3958490535322675F15DD3" }, { "b" : "7F354BC1F000", "path" : "/lib/x86_64-linux-gnu/libm.so.6", "elfType" : 3, "buildId" : "BAD67A84E56E73D031AE507261DA066B35949D34" }, { "b" : "7F354BA09000", "path" : "/lib/x86_64-linux-gnu/libgcc_s.so.1", "elfType" : 3, "buildId" : "68220AE2C65D65C1B6AAA12FA6765A6EC2F5F434" }, { "b" : "7F354B7EC000", "path" : "/lib/x86_64-linux-gnu/libpthread.so.0", "elfType" : 3, "buildId" : "B17C21299099640A6D863E423D99265824E7BB16" }, { "b" : "7F354B422000", "path" : "/lib/x86_64-linux-gnu/libc.so.6", "elfType" : 3, "buildId" : "1CA54A6E0D76188105B12E49FE6B8019BF08803A" }, { "b" : "7F354CE6C000", "path" : "/lib64/ld-linux-x86-64.so.2", "elfType" : 3, "buildId" : "C0ADBAD6F9A33944F2B3567C078EC472A1DAE98E" }, { "b" : "7F354B1EF000", "path" : "/usr/lib/x86_64-linux-gnu/libidn.so.11", "elfType" : 3, "buildId" : "E09D3783AD1D0BBCD3204FA01E4EF6D756E18F57" }, { "b" : "7F354AFD3000", "path" : "/usr/lib/x86_64-linux-gnu/librtmp.so.1", "elfType" : 3, "buildId" : "8D1CC1204D6B6D33BD1D2C5A2A0516A2234322CF" }, { "b" : "7F354AD89000", "path" : "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2", "elfType" : 3, "buildId" : "41971A4A3CCDC54A447F41DF4BD96C948C546E0E" }, { "b" : "7F354AB7A000", "path" : "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2", "elfType" : 3, "buildId" : "5B146086EC173C299BA45F0C92E068D68CC7AD37" }, { "b" : "7F354A929000", "path" : "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2", "elfType" : 3, "buildId" : "D02A94DB90567C2C45F40C8565809A041FD22A55" }, { "b" : "7F354A70F000", "path" : "/lib/x86_64-linux-gnu/libz.so.1", "elfType" : 3, "buildId" : "8D9BD4CE26E45EF16075C67D5F5EEAFD8B562832" }, { "b" : "7F354A3DF000", "path" : "/usr/lib/x86_64-linux-gnu/libgnutls.so.30", "elfType" : 3, "buildId" : "3CE893F6D1382C2C7648DCCB06E71B1C7E0861CC" }, { "b" : "7F354A1AC000", "path" : "/usr/lib/x86_64-linux-gnu/libhogweed.so.4", "elfType" : 3, "buildId" : "B11678F560199547DCF726384EA39153EE0DFABF" }, { "b" : "7F3549F76000", "path" : "/usr/lib/x86_64-linux-gnu/libnettle.so.6", "elfType" : 3, "buildId" : "D6B36C5A463EE0FA84FDD6D5FD3F7726EDB90D54" }, { "b" : "7F3549CF6000", "path" : "/usr/lib/x86_64-linux-gnu/libgmp.so.10", "elfType" : 3, "buildId" : "7B3533D5998D20EE1A1BE3F87789B69041E7F620" }, { "b" : "7F3549A24000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5.so.3", "elfType" : 3, "buildId" : "0EEF7058B0737B68BDF89E5DC604D0AC389C8BB1" }, { "b" : "7F35497F5000", "path" : "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3", "elfType" : 3, "buildId" : "FFBA483A43D9EF73925AC116811890C037523DA1" }, { "b" : "7F35495F1000", "path" : "/lib/x86_64-linux-gnu/libcom_err.so.2", "elfType" : 3, "buildId" : "1E16CB57F699E215A2A8D4EFEF90883BC749B12D" }, { "b" : "7F35493E6000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0", "elfType" : 3, "buildId" : "B789D8D4B4FC333405AB34387D9237F954060EA4" }, { "b" : "7F35491CB000", "path" : "/usr/lib/x86_64-linux-gnu/libsasl2.so.2", "elfType" : 3, "buildId" : "87783DF8A1058CD150F8886CB36340384093C18F" }, { "b" : "7F3548F8A000", "path" : "/usr/lib/x86_64-linux-gnu/libgssapi.so.3", "elfType" : 3, "buildId" : "1FE877BE52A424D0636AFD4D35BB330E41D6E0F3" }, { "b" : "7F3548D26000", "path" : "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", "elfType" : 3, "buildId" : "A0E2D03FF5CF65937F4425D4EFD4D655243809EB" }, { "b" : "7F3548B13000", "path" : "/usr/lib/x86_64-linux-gnu/libtasn1.so.6", "elfType" : 3, "buildId" : "E07E186694852D8F69459C6AB28A53F8DA3CE3B6" }, { "b" : "7F354890F000", "path" : "/lib/x86_64-linux-gnu/libkeyutils.so.1", "elfType" : 3, "buildId" : "3364D4BF2113C4E8D17EF533867ECC99A53413D6" }, { "b" : "7F3548706000", "path" : "/usr/lib/x86_64-linux-gnu/libheimntlm.so.0", "elfType" : 3, "buildId" : "73A8EADBC85860662B24850E71D4AFBE22C33359" }, { "b" : "7F354847C000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5.so.26", "elfType" : 3, "buildId" : "59E742306A4EA2872E061ECCE92F35FADDA75357" }, { "b" : "7F35481DA000", "path" : "/usr/lib/x86_64-linux-gnu/libasn1.so.8", "elfType" : 3, "buildId" : "E5C159E415406AE79D21056D752BA949C408B5B1" }, { "b" : "7F3547FA7000", "path" : "/usr/lib/x86_64-linux-gnu/libhcrypto.so.4", "elfType" : 3, "buildId" : "7D15576E1F096614D360784E4A01A1F5FAF908C9" }, { "b" : "7F3547D91000", "path" : "/usr/lib/x86_64-linux-gnu/libroken.so.18", "elfType" : 3, "buildId" : "481DB33C28D88E43DA6BED65E1A7599407D4D818" }, { "b" : "7F3547B89000", "path" : "/usr/lib/x86_64-linux-gnu/libffi.so.6", "elfType" : 3, "buildId" : "9D9C958F1F4894AFEF6AECD90D1C430EA29AC34F" }, { "b" : "7F3547960000", "path" : "/usr/lib/x86_64-linux-gnu/libwind.so.0", "elfType" : 3, "buildId" : "57E25072866B2D30CF02EBE7AE623B84F96FA700" }, { "b" : "7F3547751000", "path" : "/usr/lib/x86_64-linux-gnu/libheimbase.so.1", "elfType" : 3, "buildId" : "F6F1B4E9F89B716C4A0BA5819BDFFAF4A13EFB91" }, { "b" : "7F3547506000", "path" : "/usr/lib/x86_64-linux-gnu/libhx509.so.5", "elfType" : 3, "buildId" : "C60082E3BB78D0D42868D9B359B89BF66CE5A1A7" }, { "b" : "7F3547232000", "path" : "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", "elfType" : 3, "buildId" : "C646E090F27A5CAEE45AC2BE4EFBC01E550BD27B" }, { "b" : "7F3546FFA000", "path" : "/lib/x86_64-linux-gnu/libcrypt.so.1", "elfType" : 3, "buildId" : "FD61CA7A6D603E94E5EFD5C88D8810AE104FCF40" } ] }}
+[36mmongo_1          |[0m  mongod(_ZN5mongo15printStackTraceERSo+0x41) [0x557fa5fa8b61]
+[36mmongo_1          |[0m  mongod(+0x23FBD79) [0x557fa5fa7d79]
+[36mmongo_1          |[0m  mongod(+0x23FC25D) [0x557fa5fa825d]
+[36mmongo_1          |[0m  libpthread.so.0(+0x11390) [0x7f354b7fd390]
+[36mmongo_1          |[0m  libc.so.6(gsignal+0x38) [0x7f354b457428]
+[36mmongo_1          |[0m  libc.so.6(abort+0x16A) [0x7f354b45902a]
+[36mmongo_1          |[0m  mongod(_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj+0x0) [0x557fa45c313f]
+[36mmongo_1          |[0m  mongod(+0xB0EFA6) [0x557fa46bafa6]
+[36mmongo_1          |[0m  mongod(+0xB80F99) [0x557fa472cf99]
+[36mmongo_1          |[0m  mongod(__wt_err_func+0x90) [0x557fa454d343]
+[36mmongo_1          |[0m  mongod(__wt_panic+0x3F) [0x557fa454d763]
+[36mmongo_1          |[0m  mongod(+0xBEB282) [0x557fa4797282]
+[36mmongo_1          |[0m  libpthread.so.0(+0x76BA) [0x7f354b7f36ba]
+[36mmongo_1          |[0m  libc.so.6(clone+0x6D) [0x7f354b52941d]
+[36mmongo_1          |[0m -----  END BACKTRACE  -----
+[36mmongo_1          |[0m 2019-03-12T15:42:18.977+0000 F -        [WTJournalFlusher] Fatal Assertion 28559 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 65
+[36mmi_sitio_web_mongo_1 exited with code 14
+[0m[33mweb_1            |[0m Not Found: /
+[33mweb_1            |[0m [12/Mar/2019 15:45:15] "GET / HTTP/1.1" 404 2039
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /admin/ HTTP/1.1" 302 0
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[33mweb_1            |[0m Not Found: /pelis/ejercicio1/pepe
+[33mweb_1            |[0m [12/Mar/2019 15:45:33] "GET /pelis/ejercicio1/pepe HTTP/1.1" 404 2120
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[33mweb_1            |[0m March 12, 2019 - 15:46:34
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[33mweb_1            |[0m Not Found: /ejercicios/ejercicio1
+[33mweb_1            |[0m [12/Mar/2019 15:46:44] "GET /ejercicios/ejercicio1 HTTP/1.1" 404 2193
+[33mweb_1            |[0m [12/Mar/2019 15:46:49] "GET /ejercicios/ejercicio1/pepe HTTP/1.1" 200 4
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f65e6be7950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f690b325950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f7a5a8f3950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f6c17002950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[32mmongo-express_1  |[0m [0mGET / [0m- [0m- ms - -[0m
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to mi_sitio_web_mongo_1, mi_sitio_web_web_1, mi_sitio_web_mongo-express_1
+[36mmongo_1          |[0m 2019-03-12T15:49:34.496+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[32mmongo-express_1  |[0m Waiting for mongo:27017...
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[32mmongo-express_1  |[0m /docker-entrypoint.sh: connect: Connection refused
+[32mmongo-express_1  |[0m /docker-entrypoint.sh: line 14: /dev/tcp/mongo/27017: Connection refused
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[33mweb_1            |[0m March 12, 2019 - 15:24:20
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[33mweb_1            |[0m March 12, 2019 - 15:26:25
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[33mweb_1            |[0m March 12, 2019 - 15:35:19
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[33mweb_1            |[0m Not Found: /
+[33mweb_1            |[0m [12/Mar/2019 15:41:19] "HEAD / HTTP/1.1" 404 2040
+[33mweb_1            |[0m Not Found: /
+[33mweb_1            |[0m [12/Mar/2019 15:41:26] "GET / HTTP/1.1" 404 2039
+[33mweb_1            |[0m Not Found: /favicon.ico
+[33mweb_1            |[0m [12/Mar/2019 15:41:26] "GET /favicon.ico HTTP/1.1" 404 2090
+[33mweb_1            |[0m Not Found: /ejercicios
+[33mweb_1            |[0m [12/Mar/2019 15:41:39] "GET /ejercicios HTTP/1.1" 404 2087
+[33mweb_1            |[0m Not Found: /ejercicios/
+[33mweb_1            |[0m [12/Mar/2019 15:41:45] "GET /ejercicios/ HTTP/1.1" 404 2163
+[33mweb_1            |[0m Not Found: /
+[33mweb_1            |[0m [12/Mar/2019 15:45:15] "GET / HTTP/1.1" 404 2039
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /admin/ HTTP/1.1" 302 0
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[33mweb_1            |[0m [12/Mar/2019 15:45:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[33mweb_1            |[0m Not Found: /pelis/ejercicio1/pepe
+[33mweb_1            |[0m [12/Mar/2019 15:45:33] "GET /pelis/ejercicio1/pepe HTTP/1.1" 404 2120
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m System check identified no issues (0 silenced).
+[33mweb_1            |[0m March 12, 2019 - 15:46:34
+[33mweb_1            |[0m Django version 2.1.7, using settings 'mi_sitio_web.settings'
+[33mweb_1            |[0m Starting development server at http://0.0.0.0:8000/
+[33mweb_1            |[0m Quit the server with CONTROL-C.
+[33mweb_1            |[0m Not Found: /ejercicios/ejercicio1
+[33mweb_1            |[0m [12/Mar/2019 15:46:44] "GET /ejercicios/ejercicio1 HTTP/1.1" 404 2193
+[33mweb_1            |[0m [12/Mar/2019 15:46:49] "GET /ejercicios/ejercicio1/pepe HTTP/1.1" 200 4
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f65e6be7950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f690b325950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] 
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[36mmongo_1          |[0m 2019-03-12T15:49:35.361+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:361489][1:0x7f923bd0ba40], txn-recover: Main recovery loop: starting at 3/4480 to 4/256
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[36mmongo_1          |[0m 2019-03-12T15:49:35.361+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:361812][1:0x7f923bd0ba40], txn-recover: Recovering log 3 through 4
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[36mmongo_1          |[0m 2019-03-12T15:49:35.484+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:484571][1:0x7f923bd0ba40], txn-recover: Recovering log 4 through 4
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[36mmongo_1          |[0m 2019-03-12T15:49:35.530+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:530113][1:0x7f923bd0ba40], txn-recover: Set global recovery timestamp: 0
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f7a5a8f3950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f6c17002950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[36mmongo_1          |[0m 2019-03-12T15:49:35.931+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:49:36.012+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:49:36.013+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[32mmongo-express_1  |[0m Tue Mar 12 15:49:37 UTC 2019 retrying to connect to mongo:27017 (2/5)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.012+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49578 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.012+0000 I NETWORK  [conn1] end connection 172.21.0.4:49578 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.013+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[32mmongo-express_1  |[0m Welcome to mongo-express
+[32mmongo-express_1  |[0m ------------------------
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m Mongo Express server listening at http://0.0.0.0:8081
+[32mmongo-express_1  |[0m [31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[32mmongo-express_1  |[0m [31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[36mmongo_1          |[0m 2019-03-12T15:49:37.482+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49582 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.502+0000 I NETWORK  [conn2] received client metadata from 172.21.0.4:49582 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[32mmongo-express_1  |[0m Database connected
+[32mmongo-express_1  |[0m Admin Database connected
+[36mmongo_1          |[0m 2019-03-12T15:49:37.513+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49584 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.515+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49586 #4 (3 connections now open)
+[33mmi_sitio_web_web_1 exited with code 137
+[0m[36mmongo_1          |[0m 2019-03-12T15:49:45.896+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49604 #5 (4 connections now open)
+[32mmongo-express_1  |[0m [0mGET / [32m200 [0m42.924 ms - 9696[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m4.719 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m4.016 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.556 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.550 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m1.493 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/index-512f467a07c538127931.min.js [36m304 [0m0.945 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.792 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.378 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/ [36m304 [0m21.993 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m1.160 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m1.250 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m2.579 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.720 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m1.555 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/database-d63e752d3031610834d2.min.js [36m304 [0m0.348 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.378 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.304 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /db/movies/pelis [36m304 [0m65.716 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap.min.css [36m304 [0m0.392 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/bootstrap-theme.min.css [36m304 [0m2.076 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/style.css [36m304 [0m1.992 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/codemirror.css [36m304 [0m1.977 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/css/theme/rubyblue.css [36m304 [0m1.966 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/mongo-express-logo.png [36m304 [0m1.938 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/vendor-47ad38d08af7dbfa26be.min.js [36m304 [0m0.331 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/codemirror-298693927a3d2ff0c905.min.js [36m304 [0m0.895 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/collection-de5030f1c86993d175a9.min.js [36m304 [0m0.916 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/img/gears.gif [36m304 [0m0.908 ms - -[0m
+[32mmongo-express_1  |[0m [0mGET /public/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m0.355 ms - -[0m
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to mi_sitio_web_mongo_1, mi_sitio_web_web_1, mi_sitio_web_mongo-express_1
+[33mweb_1            |[0m Performing system checks...
+[33mweb_1            |[0m 
+[33mweb_1            |[0m Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f73532b6950>
+[33mweb_1            |[0m Traceback (most recent call last):
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/autoreload.py", line 225, in wrapper
+[32mmongo-express_1  |[0m Waiting for mongo:27017...
+[33mweb_1            |[0m     fn(*args, **kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+[33mweb_1            |[0m     self.check(display_num_errors=True)
+[36mmongo_1          |[0m 2019-03-12T15:24:09.402+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:24:09.404+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[36mmongo_1          |[0m 2019-03-12T15:24:09.405+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[36mmongo_1          |[0m 2019-03-12T15:24:11.392+0000 I STORAGE  [initandlisten] WiredTiger message [1552404251:392097][1:0x7fccd685da40], txn-recover: Set global recovery timestamp: 0
+[36mmongo_1          |[0m 2019-03-12T15:24:11.885+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:24:12.662+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:24:12.663+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: b5529eeb-d8ee-4933-83ae-df440629696e
+[36mmongo_1          |[0m 2019-03-12T15:24:13.161+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+[36mmongo_1          |[0m 2019-03-12T15:24:13.164+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: dbedbf7b-0845-4fde-81df-3b7cfa534f3c
+[36mmongo_1          |[0m 2019-03-12T15:24:13.714+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:24:13.715+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[36mmongo_1          |[0m 2019-03-12T15:24:13.715+0000 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: 9b3ad1a4-b7c6-4eb5-94d4-81fd2c9a6999
+[36mmongo_1          |[0m 2019-03-12T15:24:14.124+0000 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+[36mmongo_1          |[0m 2019-03-12T15:24:14.124+0000 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+[36mmongo_1          |[0m 2019-03-12T15:24:14.125+0000 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+[36mmongo_1          |[0m 2019-03-12T15:24:14.125+0000 I COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:114 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 409ms
+[36mmongo_1          |[0m 2019-03-12T15:24:14.506+0000 I NETWORK  [listener] connection accepted from 172.21.0.3:55576 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:24:14.506+0000 I NETWORK  [conn1] end connection 172.21.0.3:55576 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:24:14.997+0000 I NETWORK  [listener] connection accepted from 172.21.0.3:55578 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:24:15.017+0000 I NETWORK  [conn2] received client metadata from 172.21.0.3:55578 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[36mmongo_1          |[0m 2019-03-12T15:24:15.028+0000 I NETWORK  [listener] connection accepted from 172.21.0.3:55580 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:13.483+0000 I NETWORK  [conn2] end connection 172.21.0.3:55578 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:13.483+0000 I NETWORK  [conn3] end connection 172.21.0.3:55580 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:22.841+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[36mmongo_1          |[0m 2019-03-12T15:26:22.844+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[36mmongo_1          |[0m 2019-03-12T15:26:23.982+0000 I STORAGE  [initandlisten] WiredTiger message [1552404383:982302][1:0x7fd441ee2a40], txn-recover: Main recovery loop: starting at 1/20736 to 2/256
+[36mmongo_1          |[0m 2019-03-12T15:26:23.982+0000 I STORAGE  [initandlisten] WiredTiger message [1552404383:982621][1:0x7fd441ee2a40], txn-recover: Recovering log 1 through 2
+[36mmongo_1          |[0m 2019-03-12T15:26:24.108+0000 I STORAGE  [initandlisten] WiredTiger message [1552404384:108568][1:0x7fd441ee2a40], txn-recover: Recovering log 2 through 2
+[36mmongo_1          |[0m 2019-03-12T15:26:24.158+0000 I STORAGE  [initandlisten] WiredTiger message [1552404384:158133][1:0x7fd441ee2a40], txn-recover: Set global recovery timestamp: 0
+[36mmongo_1          |[0m 2019-03-12T15:26:24.584+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:26:24.744+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:26:24.755+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:26:24.756+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[36mmongo_1          |[0m 2019-03-12T15:26:25.014+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[36mmongo_1          |[0m 2019-03-12T15:26:26.039+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49142 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:26.039+0000 I NETWORK  [conn1] end connection 172.21.0.4:49142 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:26.518+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49144 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:26:26.538+0000 I NETWORK  [conn2] received client metadata from 172.21.0.4:49144 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[36mmongo_1          |[0m 2019-03-12T15:26:26.550+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49146 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:32:18.357+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49172 #4 (3 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:32:25.178+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49184 #5 (4 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:34:03.679+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:45966 #6 (5 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:34:03.722+0000 I STORAGE  [conn6] createCollection: movies.pelis with generated UUID: 7e43247a-8ff9-4bde-af4d-4b3ca8094b09
+[36mmongo_1          |[0m 2019-03-12T15:34:03.956+0000 I COMMAND  [conn6] command movies.pelis command: insert { insert: "pelis", writeConcern: { getLastError: 1, w: 1 }, ordered: false, $db: "movies" } ninserted:1000 keysInserted:1000 numYields:0 reslen:60 locks:{ Global: { acquireCount: { r: 18, w: 18 } }, Database: { acquireCount: { w: 17, W: 1 } }, Collection: { acquireCount: { w: 17 } } } protocol:op_query 234ms
+[36mmongo_1          |[0m 2019-03-12T15:34:03.992+0000 I NETWORK  [conn6] end connection 127.0.0.1:45966 (4 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:04.232+0000 I NETWORK  [conn5] end connection 172.21.0.4:49184 (3 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:04.232+0000 I NETWORK  [conn3] end connection 172.21.0.4:49146 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:04.232+0000 I NETWORK  [conn4] end connection 172.21.0.4:49172 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:04.232+0000 I NETWORK  [conn2] end connection 172.21.0.4:49144 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:17.102+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[36mmongo_1          |[0m 2019-03-12T15:35:17.105+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[36mmongo_1          |[0m 2019-03-12T15:35:18.156+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:156845][1:0x7f354d079a40], txn-recover: Main recovery loop: starting at 2/1557248 to 3/256
+[36mmongo_1          |[0m 2019-03-12T15:35:18.157+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:157209][1:0x7f354d079a40], txn-recover: Recovering log 2 through 3
+[36mmongo_1          |[0m 2019-03-12T15:35:18.290+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:290902][1:0x7f354d079a40], file:sizeStorer.wt, txn-recover: Recovering log 3 through 3
+[36mmongo_1          |[0m 2019-03-12T15:35:18.343+0000 I STORAGE  [initandlisten] WiredTiger message [1552404918:343645][1:0x7f354d079a40], file:sizeStorer.wt, txn-recover: Set global recovery timestamp: 0
+[36mmongo_1          |[0m 2019-03-12T15:35:18.724+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:35:18.814+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:35:18.830+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:35:18.831+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 379, in check
+[36mmongo_1          |[0m 2019-03-12T15:35:19.020+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[36mmongo_1          |[0m 2019-03-12T15:35:20.498+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49366 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:20.498+0000 I NETWORK  [conn1] end connection 172.21.0.4:49366 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:21.031+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49368 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:21.051+0000 I NETWORK  [conn2] received client metadata from 172.21.0.4:49368 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[36mmongo_1          |[0m 2019-03-12T15:35:21.065+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49370 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:21.067+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49372 #4 (3 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:35:22.845+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49378 #5 (4 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (13) [1552405338:961436][1:0x7f3544ff5700], log-server: __directory_list_worker, 48: /data/db/journal: directory-list: opendir: Permission denied Raw: [1552405338:961436][1:0x7f3544ff5700], log-server: __directory_list_worker, 48: /data/db/journal: directory-list: opendir: Permission denied
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (13) [1552405338:961605][1:0x7f3544ff5700], log-server: __log_prealloc_once, 484: log pre-alloc server error: Permission denied Raw: [1552405338:961605][1:0x7f3544ff5700], log-server: __log_prealloc_once, 484: log pre-alloc server error: Permission denied
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (13) [1552405338:961689][1:0x7f3544ff5700], log-server: __log_server, 1031: log server error: Permission denied Raw: [1552405338:961689][1:0x7f3544ff5700], log-server: __log_server, 1031: log server error: Permission denied
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 E STORAGE  [thread6] WiredTiger error (-31804) [1552405338:961734][1:0x7f3544ff5700], log-server: __wt_panic, 523: the process must exit and restart: WT_PANIC: WiredTiger library panic Raw: [1552405338:961734][1:0x7f3544ff5700], log-server: __wt_panic, 523: the process must exit and restart: WT_PANIC: WiredTiger library panic
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 F -        [thread6] Fatal Assertion 50853 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 409
+[36mmongo_1          |[0m 2019-03-12T15:42:18.961+0000 F -        [thread6] 
+[36mmongo_1          |[0m 
+[36mmongo_1          |[0m ***aborting after fassert() failure
+[36mmongo_1          |[0m 
+[36mmongo_1          |[0m 
+[36mmongo_1          |[0m 2019-03-12T15:42:18.977+0000 F -        [thread6] Got signal: 6 (Aborted).
+[36mmongo_1          |[0m  0x557fa5fa8b61 0x557fa5fa7d79 0x557fa5fa825d 0x7f354b7fd390 0x7f354b457428 0x7f354b45902a 0x557fa45c313f 0x557fa46bafa6 0x557fa472cf99 0x557fa454d343 0x557fa454d763 0x557fa4797282 0x7f354b7f36ba 0x7f354b52941d
+[36mmongo_1          |[0m ----- BEGIN BACKTRACE -----
+[36mmongo_1          |[0m {"backtrace":[{"b":"557FA3BAC000","o":"23FCB61","s":"_ZN5mongo15printStackTraceERSo"},{"b":"557FA3BAC000","o":"23FBD79"},{"b":"557FA3BAC000","o":"23FC25D"},{"b":"7F354B7EC000","o":"11390"},{"b":"7F354B422000","o":"35428","s":"gsignal"},{"b":"7F354B422000","o":"3702A","s":"abort"},{"b":"557FA3BAC000","o":"A1713F","s":"_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj"},{"b":"557FA3BAC000","o":"B0EFA6"},{"b":"557FA3BAC000","o":"B80F99"},{"b":"557FA3BAC000","o":"9A1343","s":"__wt_err_func"},{"b":"557FA3BAC000","o":"9A1763","s":"__wt_panic"},{"b":"557FA3BAC000","o":"BEB282"},{"b":"7F354B7EC000","o":"76BA"},{"b":"7F354B422000","o":"10741D","s":"clone"}],"processInfo":{ "mongodbVersion" : "4.0.6", "gitVersion" : "caa42a1f75a56c7643d0b68d3880444375ec42e3", "compiledModules" : [], "uname" : { "sysname" : "Linux", "release" : "4.15.0-46-generic", "version" : "#49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019", "machine" : "x86_64" }, "somap" : [ { "b" : "557FA3BAC000", "elfType" : 3, "buildId" : "FAEABC5A7AEF9457109EED554DE5AD1A4812715B" }, { "b" : "7FFF69FE2000", "elfType" : 3, "buildId" : "E355748AFDEF074EA826B0AA2146077CB329F805" }, { "b" : "7F354CBFD000", "path" : "/usr/lib/x86_64-linux-gnu/libcurl.so.4", "elfType" : 3, "buildId" : "93EA3FEB7AC8F28D7F4F59F5B94226A20A6F9023" }, { "b" : "7F354C9E2000", "path" : "/lib/x86_64-linux-gnu/libresolv.so.2", "elfType" : 3, "buildId" : "50A923F8DAFECBCD969C8573116A38C18D0E24D5" }, { "b" : "7F354C59D000", "path" : "/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", "elfType" : 3, "buildId" : "15FFEB43278726B025F020862BF51302822A40EC" }, { "b" : "7F354C334000", "path" : "/lib/x86_64-linux-gnu/libssl.so.1.0.0", "elfType" : 3, "buildId" : "FF69EA60EBE05F2DD689D2B26FC85A73E5FBC3A0" }, { "b" : "7F354C130000", "path" : "/lib/x86_64-linux-gnu/libdl.so.2", "elfType" : 3, "buildId" : "37BFC3D8F7E3B022DAC7943B1A5FACD40CEBF0AD" }, { "b" : "7F354BF28000", "path" : "/lib/x86_64-linux-gnu/librt.so.1", "elfType" : 3, "buildId" : "69143E8B39040C964D3958490535322675F15DD3" }, { "b" : "7F354BC1F000", "path" : "/lib/x86_64-linux-gnu/libm.so.6", "elfType" : 3, "buildId" : "BAD67A84E56E73D031AE507261DA066B35949D34" }, { "b" : "7F354BA09000", "path" : "/lib/x86_64-linux-gnu/libgcc_s.so.1", "elfType" : 3, "buildId" : "68220AE2C65D65C1B6AAA12FA6765A6EC2F5F434" }, { "b" : "7F354B7EC000", "path" : "/lib/x86_64-linux-gnu/libpthread.so.0", "elfType" : 3, "buildId" : "B17C21299099640A6D863E423D99265824E7BB16" }, { "b" : "7F354B422000", "path" : "/lib/x86_64-linux-gnu/libc.so.6", "elfType" : 3, "buildId" : "1CA54A6E0D76188105B12E49FE6B8019BF08803A" }, { "b" : "7F354CE6C000", "path" : "/lib64/ld-linux-x86-64.so.2", "elfType" : 3, "buildId" : "C0ADBAD6F9A33944F2B3567C078EC472A1DAE98E" }, { "b" : "7F354B1EF000", "path" : "/usr/lib/x86_64-linux-gnu/libidn.so.11", "elfType" : 3, "buildId" : "E09D3783AD1D0BBCD3204FA01E4EF6D756E18F57" }, { "b" : "7F354AFD3000", "path" : "/usr/lib/x86_64-linux-gnu/librtmp.so.1", "elfType" : 3, "buildId" : "8D1CC1204D6B6D33BD1D2C5A2A0516A2234322CF" }, { "b" : "7F354AD89000", "path" : "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2", "elfType" : 3, "buildId" : "41971A4A3CCDC54A447F41DF4BD96C948C546E0E" }, { "b" : "7F354AB7A000", "path" : "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2", "elfType" : 3, "buildId" : "5B146086EC173C299BA45F0C92E068D68CC7AD37" }, { "b" : "7F354A929000", "path" : "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2", "elfType" : 3, "buildId" : "D02A94DB90567C2C45F40C8565809A041FD22A55" }, { "b" : "7F354A70F000", "path" : "/lib/x86_64-linux-gnu/libz.so.1", "elfType" : 3, "buildId" : "8D9BD4CE26E45EF16075C67D5F5EEAFD8B562832" }, { "b" : "7F354A3DF000", "path" : "/usr/lib/x86_64-linux-gnu/libgnutls.so.30", "elfType" : 3, "buildId" : "3CE893F6D1382C2C7648DCCB06E71B1C7E0861CC" }, { "b" : "7F354A1AC000", "path" : "/usr/lib/x86_64-linux-gnu/libhogweed.so.4", "elfType" : 3, "buildId" : "B11678F560199547DCF726384EA39153EE0DFABF" }, { "b" : "7F3549F76000", "path" : "/usr/lib/x86_64-linux-gnu/libnettle.so.6", "elfType" : 3, "buildId" : "D6B36C5A463EE0FA84FDD6D5FD3F7726EDB90D54" }, { "b" : "7F3549CF6000", "path" : "/usr/lib/x86_64-linux-gnu/libgmp.so.10", "elfType" : 3, "buildId" : "7B3533D5998D20EE1A1BE3F87789B69041E7F620" }, { "b" : "7F3549A24000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5.so.3", "elfType" : 3, "buildId" : "0EEF7058B0737B68BDF89E5DC604D0AC389C8BB1" }, { "b" : "7F35497F5000", "path" : "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3", "elfType" : 3, "buildId" : "FFBA483A43D9EF73925AC116811890C037523DA1" }, { "b" : "7F35495F1000", "path" : "/lib/x86_64-linux-gnu/libcom_err.so.2", "elfType" : 3, "buildId" : "1E16CB57F699E215A2A8D4EFEF90883BC749B12D" }, { "b" : "7F35493E6000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0", "elfType" : 3, "buildId" : "B789D8D4B4FC333405AB34387D9237F954060EA4" }, { "b" : "7F35491CB000", "path" : "/usr/lib/x86_64-linux-gnu/libsasl2.so.2", "elfType" : 3, "buildId" : "87783DF8A1058CD150F8886CB36340384093C18F" }, { "b" : "7F3548F8A000", "path" : "/usr/lib/x86_64-linux-gnu/libgssapi.so.3", "elfType" : 3, "buildId" : "1FE877BE52A424D0636AFD4D35BB330E41D6E0F3" }, { "b" : "7F3548D26000", "path" : "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", "elfType" : 3, "buildId" : "A0E2D03FF5CF65937F4425D4EFD4D655243809EB" }, { "b" : "7F3548B13000", "path" : "/usr/lib/x86_64-linux-gnu/libtasn1.so.6", "elfType" : 3, "buildId" : "E07E186694852D8F69459C6AB28A53F8DA3CE3B6" }, { "b" : "7F354890F000", "path" : "/lib/x86_64-linux-gnu/libkeyutils.so.1", "elfType" : 3, "buildId" : "3364D4BF2113C4E8D17EF533867ECC99A53413D6" }, { "b" : "7F3548706000", "path" : "/usr/lib/x86_64-linux-gnu/libheimntlm.so.0", "elfType" : 3, "buildId" : "73A8EADBC85860662B24850E71D4AFBE22C33359" }, { "b" : "7F354847C000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5.so.26", "elfType" : 3, "buildId" : "59E742306A4EA2872E061ECCE92F35FADDA75357" }, { "b" : "7F35481DA000", "path" : "/usr/lib/x86_64-linux-gnu/libasn1.so.8", "elfType" : 3, "buildId" : "E5C159E415406AE79D21056D752BA949C408B5B1" }, { "b" : "7F3547FA7000", "path" : "/usr/lib/x86_64-linux-gnu/libhcrypto.so.4", "elfType" : 3, "buildId" : "7D15576E1F096614D360784E4A01A1F5FAF908C9" }, { "b" : "7F3547D91000", "path" : "/usr/lib/x86_64-linux-gnu/libroken.so.18", "elfType" : 3, "buildId" : "481DB33C28D88E43DA6BED65E1A7599407D4D818" }, { "b" : "7F3547B89000", "path" : "/usr/lib/x86_64-linux-gnu/libffi.so.6", "elfType" : 3, "buildId" : "9D9C958F1F4894AFEF6AECD90D1C430EA29AC34F" }, { "b" : "7F3547960000", "path" : "/usr/lib/x86_64-linux-gnu/libwind.so.0", "elfType" : 3, "buildId" : "57E25072866B2D30CF02EBE7AE623B84F96FA700" }, { "b" : "7F3547751000", "path" : "/usr/lib/x86_64-linux-gnu/libheimbase.so.1", "elfType" : 3, "buildId" : "F6F1B4E9F89B716C4A0BA5819BDFFAF4A13EFB91" }, { "b" : "7F3547506000", "path" : "/usr/lib/x86_64-linux-gnu/libhx509.so.5", "elfType" : 3, "buildId" : "C60082E3BB78D0D42868D9B359B89BF66CE5A1A7" }, { "b" : "7F3547232000", "path" : "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", "elfType" : 3, "buildId" : "C646E090F27A5CAEE45AC2BE4EFBC01E550BD27B" }, { "b" : "7F3546FFA000", "path" : "/lib/x86_64-linux-gnu/libcrypt.so.1", "elfType" : 3, "buildId" : "FD61CA7A6D603E94E5EFD5C88D8810AE104FCF40" } ] }}
+[36mmongo_1          |[0m  mongod(_ZN5mongo15printStackTraceERSo+0x41) [0x557fa5fa8b61]
+[36mmongo_1          |[0m  mongod(+0x23FBD79) [0x557fa5fa7d79]
+[36mmongo_1          |[0m  mongod(+0x23FC25D) [0x557fa5fa825d]
+[36mmongo_1          |[0m  libpthread.so.0(+0x11390) [0x7f354b7fd390]
+[36mmongo_1          |[0m  libc.so.6(gsignal+0x38) [0x7f354b457428]
+[36mmongo_1          |[0m  libc.so.6(abort+0x16A) [0x7f354b45902a]
+[36mmongo_1          |[0m  mongod(_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj+0x0) [0x557fa45c313f]
+[36mmongo_1          |[0m  mongod(+0xB0EFA6) [0x557fa46bafa6]
+[36mmongo_1          |[0m  mongod(+0xB80F99) [0x557fa472cf99]
+[36mmongo_1          |[0m  mongod(__wt_err_func+0x90) [0x557fa454d343]
+[36mmongo_1          |[0m  mongod(__wt_panic+0x3F) [0x557fa454d763]
+[36mmongo_1          |[0m  mongod(+0xBEB282) [0x557fa4797282]
+[36mmongo_1          |[0m  libpthread.so.0(+0x76BA) [0x7f354b7f36ba]
+[36mmongo_1          |[0m  libc.so.6(clone+0x6D) [0x7f354b52941d]
+[36mmongo_1          |[0m -----  END BACKTRACE  -----
+[36mmongo_1          |[0m 2019-03-12T15:42:18.977+0000 F -        [WTJournalFlusher] Fatal Assertion 28559 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 65
+[36mmongo_1          |[0m 2019-03-12T15:49:34.496+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=fc7aa7444891
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] db version v4.0.6
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] git version: caa42a1f75a56c7643d0b68d3880444375ec42e3
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] modules: none
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] build environment:
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[36mmongo_1          |[0m 2019-03-12T15:49:34.498+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 W STORAGE  [initandlisten] Detected unclean shutdown - /data/db/mongod.lock is not empty.
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[36mmongo_1          |[0m 2019-03-12T15:49:34.499+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7453M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+[36mmongo_1          |[0m 2019-03-12T15:49:35.361+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:361489][1:0x7f923bd0ba40], txn-recover: Main recovery loop: starting at 3/4480 to 4/256
+[36mmongo_1          |[0m 2019-03-12T15:49:35.361+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:361812][1:0x7f923bd0ba40], txn-recover: Recovering log 3 through 4
+[36mmongo_1          |[0m 2019-03-12T15:49:35.484+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:484571][1:0x7f923bd0ba40], txn-recover: Recovering log 4 through 4
+[36mmongo_1          |[0m 2019-03-12T15:49:35.530+0000 I STORAGE  [initandlisten] WiredTiger message [1552405775:530113][1:0x7f923bd0ba40], txn-recover: Set global recovery timestamp: 0
+[36mmongo_1          |[0m 2019-03-12T15:49:35.931+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[36mmongo_1          |[0m 2019-03-12T15:49:35.998+0000 I CONTROL  [initandlisten] 
+[36mmongo_1          |[0m 2019-03-12T15:49:36.012+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[36mmongo_1          |[0m 2019-03-12T15:49:36.013+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+[36mmongo_1          |[0m 2019-03-12T15:49:37.012+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49578 #1 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.012+0000 I NETWORK  [conn1] end connection 172.21.0.4:49578 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.013+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+[36mmongo_1          |[0m 2019-03-12T15:49:37.482+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49582 #2 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.502+0000 I NETWORK  [conn2] received client metadata from 172.21.0.4:49582 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[36mmongo_1          |[0m 2019-03-12T15:49:37.513+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49584 #3 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:37.515+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49586 #4 (3 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:49:45.896+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49604 #5 (4 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:26.710+0000 I NETWORK  [conn5] end connection 172.21.0.4:49604 (3 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:26.710+0000 I NETWORK  [conn2] end connection 172.21.0.4:49582 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:26.710+0000 I NETWORK  [conn4] end connection 172.21.0.4:49586 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:26.710+0000 I NETWORK  [conn3] end connection 172.21.0.4:49584 (0 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:31.398+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49686 #6 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:31.398+0000 I NETWORK  [conn6] end connection 172.21.0.4:49686 (0 connections now open)
+[33mweb_1            |[0m     include_deployment_checks=include_deployment_checks,
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 366, in _run_checks
+[33mweb_1            |[0m     return checks.run_checks(**kwargs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/registry.py", line 71, in run_checks
+[33mweb_1            |[0m     new_errors = check(app_configs=app_configs)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 40, in check_url_namespaces_unique
+[33mweb_1            |[0m     all_namespaces = _load_all_namespaces(resolver)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/core/checks/urls.py", line 57, in _load_all_namespaces
+[33mweb_1            |[0m     url_patterns = getattr(resolver, 'url_patterns', [])
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+[33mweb_1            |[0m     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+[33mweb_1            |[0m     res = instance.__dict__[self.name] = self.func(instance)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+[33mweb_1            |[0m     return import_module(self.urlconf_name)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/mi_sitio_web/urls.py", line 22, in <module>
+[33mweb_1            |[0m     url(r'^ejercicios/',include('ejercicios.urls')),
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+[33mweb_1            |[0m     urlconf_module = import_module(urlconf_module)
+[33mweb_1            |[0m   File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[33mweb_1            |[0m     return _bootstrap._gcd_import(name[level:], package, level)
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+[33mweb_1            |[0m   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[33mweb_1            |[0m   File "/code/ejercicios/urls.py", line 3, in <module>
+[33mweb_1            |[0m     from . import views
+[33mweb_1            |[0m   File "/code/ejercicios/views.py", line 5, in <module>
+[33mweb_1            |[0m     import pymongo
+[33mweb_1            |[0m ModuleNotFoundError: No module named 'pymongo'
+[32mmongo-express_1  |[0m Welcome to mongo-express
+[32mmongo-express_1  |[0m ------------------------
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m 
+[32mmongo-express_1  |[0m Mongo Express server listening at http://0.0.0.0:8081
+[32mmongo-express_1  |[0m [31mServer is open to allow connections from anyone (0.0.0.0)[39m
+[32mmongo-express_1  |[0m [31mbasicAuth credentials are "admin:pass", it is recommended you change this in your config.js![39m
+[36mmongo_1          |[0m 2019-03-12T15:52:31.862+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49688 #7 (1 connection now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:31.882+0000 I NETWORK  [conn7] received client metadata from 172.21.0.4:49688 conn7: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.15.0-46-generic" }, platform: "Node.js v8.15.1, LE, mongodb-core: 2.1.8" }
+[32mmongo-express_1  |[0m Database connected
+[32mmongo-express_1  |[0m Admin Database connected
+[36mmongo_1          |[0m 2019-03-12T15:52:31.894+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49690 #8 (2 connections now open)
+[36mmongo_1          |[0m 2019-03-12T15:52:31.896+0000 I NETWORK  [listener] connection accepted from 172.21.0.4:49692 #9 (3 connections now open)
+Gracefully stopping... (press Ctrl+C again to force)

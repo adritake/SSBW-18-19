@@ -1,0 +1,52 @@
+{% extends "main.html" %}
+
+{% block contenido %}
+
+
+  <div class="form-group">
+
+    <label for="formGroupExampleInput">Añadir título</label>
+    <input type="text" class="form-control" name = "titulo" id="titulo" >
+
+
+    <label for="formGroupExampleInput">Añadir sinopsis</label>
+    <input type="text" class="form-control" name = "sinopsis" id="sinopsis" >
+
+    <label for="formGroupExampleInput">Añadir director</label>
+    <input type="text" class="form-control" name = "director" id="director" >
+
+    <label for="formGroupExampleInput">Añadir actores (separados por comas)</label>
+    <input type="text" class="form-control" name = "actor" id="actor" >
+
+    <label for="formGroupExampleInput">Añadir generos (separados por comas)</label>
+    <input type="text" class="form-control" name = "genero" id="genero">
+
+    <label for="formGroupExampleInput">Añadir año</label>
+    <input type="text" class="form-control" name = "year" id="year">
+
+  </div>
+
+  <button type="submit" class="btn btn-primary" onclick="aniade();">Añadir</button>
+
+
+
+<script>
+function aniade() {
+
+  var tit = document.getElementById("titulo").value;
+  var sin = document.getElementById("sinopsis").value;
+  var dir = document.getElementById('director').value;
+  var act = document.getElementById('actor').value;
+  var gen = document.getElementById('genero').value;
+  var year = document.getElementById('year').value;
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "/pelis/aniadepeli/"+tit+"/"+sin+"/"+dir+"/"+act+"/"+gen+"/"+year, true);
+  xhttp.send();
+
+}
+</script>
+
+
+
+{% endblock %}

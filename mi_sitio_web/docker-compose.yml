@@ -1,0 +1,39 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./conf:/etc/nginx/conf.d:ro
+      - ./cert:/etc/ssl/private:ro
+    depends_on:
+      - web
+
+  mongo:
+    image: mongo:4.0
+    volumes:
+      - ./datos_db:/data/db
+      - .:/datos
+    ports:
+      - 27017:27017
+
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8081:8081
+    depends_on:
+      - mongo
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    links:
+      - mongo
+    depends_on:
+      - mongo

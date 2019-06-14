@@ -1,0 +1,74 @@
+{% extends "main.html" %}
+
+{% block contenido %}
+
+<ti>{{peli.title}}</ti><br><br>
+<button type="button" class="btn btn-success" id = "likebutton" onclick="like()">&#9825;</button>
+<button type="button" class="btn btn-danger" id = "dislikebutton" onclick="dislike()">&#9785;</button>
+<table class="table table-striped">
+  <tbody>
+      <tr>
+        <td>
+          <ti1> Sinopsis </ti1><br>
+          <con> {{peli.plot}}</con>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ti1> Director </ti1><br>
+          <con> {{peli.director}}</con>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ti1> Género </ti1><br>
+          <con>
+            {% for g in peli.genres %}
+            {{g}},
+            {% endfor %}
+          </con>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ti1> Año </ti1><br>
+          <con> {{peli.year}}</con>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <ti1> Criticas </ti1><br>
+          <con> IMDB: {{peli.imdb.rating}}, Rotten tomatoes: {{peli.tomato.rating}}, Metracritic: {{peli.metacritic}}</con>
+        </td>
+      </tr>
+
+  </tbody>
+</table>
+
+<script>
+function like() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("likebutton").innerHTML =
+      JSON.parse(this.responseText)['number'];
+    }
+  };
+  xhttp.open("GET", "/pelis/like", true);
+  xhttp.send();
+}
+function dislike() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("dislikebutton").innerHTML =
+      JSON.parse(this.responseText)['number'];
+    }
+  };
+  xhttp.open("GET", "/pelis/dislike", true);
+  xhttp.send();
+}
+</script>
+
+
+{% endblock %}

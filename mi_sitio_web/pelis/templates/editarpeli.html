@@ -1,0 +1,45 @@
+{% extends "main.html" %}
+
+{% block contenido %}
+
+<ti>{{peli.title}}</ti><br><br>
+
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">Editar sinopsis</label>
+    <input type="text" class="form-control" name = "sinopsis" id="sinopsis" value="{{peli.plot}}">
+
+    <label for="formGroupExampleInput">Editar director</label>
+    <input type="text" class="form-control" name = "director" id="director" value="{{peli.director}}">
+
+    <label for="formGroupExampleInput">Editar genero</label>
+    <input type="text" class="form-control" name = "genero" id="genero" value="{% for g in peli.genres %}{{g}},{% endfor %}">
+
+    <label for="formGroupExampleInput">Editar año</label>
+    <input type="text" class="form-control" name = "year" id="year" value="{{peli.year}}">
+
+  </div>
+
+  <button type="submit" class="btn btn-primary" onclick="edita('{{peli.id}}');">Editar</button>
+
+
+
+<script>
+function edita(id) {
+
+
+  var sin = document.getElementById("sinopsis").value;
+  var dir = document.getElementById('director').value;
+  var gen = document.getElementById('genero').value;
+  var year = document.getElementById('year').value;
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "/pelis/editapeli/"+id+"/"+sin+"/"+dir+"/"+gen+"/"+year, true);
+  xhttp.send();
+
+}
+</script>
+
+
+
+{% endblock %}
